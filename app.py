@@ -7,7 +7,7 @@ st.set_page_config(layout='wide')
 
 
 
-df = pd.read_csv(r'C:\Users\parth\OneDrive\Desktop\DSMP Task\DSMP Paid\8-Session on Plotly Express\India-data-viz-mini-project\dataset\india.csv')
+df = pd.read_csv('dataset/india.csv')
 
 list_of_india = list(df['State'].unique())
 list_of_india.insert(0,'Overall India')
